@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb89790b-13f4-41b6-8d7d-77277c5ae738" name="Default" comment="" />
+    <list default="true" id="eb89790b-13f4-41b6-8d7d-77277c5ae738" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tdd-java/servico/Avaliador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tdd-java/servico/Avaliador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tdd-java/teste/TesteDoAvaliador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tdd-java/teste/TesteDoAvaliador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servico/Avaliador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servico/Avaliador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/teste/TesteDoAvaliador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/teste/TesteDoAvaliador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tdd-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tdd-java.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -10,17 +18,22 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="tdd-java" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Avaliador.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/servico/Avaliador.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="115">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#417#418#0" expanded="true" />
                 <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
+                <element signature="e#671#672#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -29,17 +42,11 @@
       <file leaf-file-name="TesteDoAvaliador.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/teste/TesteDoAvaliador.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Usuario.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Usuario.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="167">
+              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,19 +60,29 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/servico/Avaliador.java" />
         <option value="$PROJECT_DIR$/src/teste/TesteDoAvaliador.java" />
+        <option value="$PROJECT_DIR$/src/servico/Avaliador.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="948" />
     <option name="width" value="981" />
     <option name="height" value="1032" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -104,7 +121,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -118,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TesteDoAvaliador">
     <configuration name="TesteDoAvaliador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="teste.TesteDoAvaliador" />
       <module name="tdd-java" />
@@ -132,6 +152,52 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="TesteDoAvaliador" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="teste" />
+      <option name="MAIN_CLASS_NAME" value="teste.TesteDoAvaliador" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TesteDoAvaliador.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="teste" />
+      <option name="MAIN_CLASS_NAME" value="teste.TesteDoAvaliador" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -171,8 +237,15 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.TesteDoAvaliador" />
+      <item itemvalue="JUnit.TesteDoAvaliador.main" />
+      <item itemvalue="JUnit.TesteDoAvaliador" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TesteDoAvaliador" />
+        <item itemvalue="JUnit.TesteDoAvaliador.main" />
         <item itemvalue="Application.TesteDoAvaliador" />
       </list>
     </recent_temporary>
@@ -190,24 +263,39 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TesteDoAvaliador_main - 2018.07.04 at 22h 08m 27s.xml">
+      <configuration name="TesteDoAvaliador.main" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TesteDoAvaliador_main - 2018.07.04 at 22h 09m 53s.xml">
+      <configuration name="TesteDoAvaliador.main" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TesteDoAvaliador - 2018.07.04 at 22h 10m 15s.xml">
+      <configuration name="TesteDoAvaliador" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TesteDoAvaliador - 2018.07.04 at 22h 10m 48s.xml">
+      <configuration name="TesteDoAvaliador" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" weight="0.32955465" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291592" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910554" visible="true" weight="0.24939272" />
+      <window_info id="Structure" order="1" sideWeight="0.5008944" side_tool="true" weight="0.24939272" />
       <window_info id="UI Designer" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Favorites" sideWeight="0.5008944" side_tool="true" weight="0.24939272" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -235,18 +323,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servico/Avaliador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Usuario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -254,12 +330,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/teste/TesteDoAvaliador.java">
+    <entry file="file://$PROJECT_DIR$/out/production/tdd-java/teste/TesteDoAvaliador.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servico/Avaliador.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="115">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/teste/TesteDoAvaliador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>
